@@ -1,0 +1,24 @@
+/* background staff*/
+
+.bg {
+  &-primary {
+    @include setBg($primary-color);
+  }
+  &-light {
+    @include setBg($light-color);
+    border: #ccc 1px solid;
+  }
+  &-dark {
+    @include setBg($dark-color);
+  }
+  &-success {
+    @include setBg($success-color);
+  }
+  &-danger {
+    @include setBg($danger-color);
+  }
+  &-white {
+    @include setBg(#fff);
+    border: #ccc 1px solid;
+  }
+}
