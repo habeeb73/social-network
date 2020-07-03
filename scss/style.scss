@@ -64,3 +64,50 @@ img {
 }
 
 /* End Navbar*/
+
+
+
+/* landing section*/
+
+.landing {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(to right, #3197a09a ,#3daf76a8);
+  clip-path: polygon(0 0, 100% 0%, 100% 74%, 0% 100%);
+  color: #333;
+  text-align: center;
+
+  .landing-content{
+    margin: 0 auto;
+
+    p{
+      padding: 1rem;
+      margin-bottom: 1rem;
+    }
+
+    .btn {
+      margin: 1rem;
+      background: #fff;
+      padding: 10px 20px;
+      border-radius: 3px;
+      display: inline-block;
+      border: none;
+      cursor: pointer;
+    }
+
+    .text-l{
+      font-size: 4rem;
+      line-height: 1.2;
+    }
+
+    .lead{
+      font-size: 1.5rem;
+    }
+  }
+
+  
+}
+
+/* landing section End */
